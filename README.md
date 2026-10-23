@@ -1,6 +1,6 @@
 # TRACE V4 scientific release candidate
 
-TRACE is a multi-criteria framework for evaluating whether clinical time-series models selected by one-step predictive fit remain suitable for recursive simulation. This is the complete local, audited candidate—not yet a public release—and it has no DOI.
+TRACE is a multi-criteria framework for evaluating whether clinical time-series models selected by one-step predictive fit remain suitable for recursive simulation. The redistribution-cleared package is public at `https://github.com/Nesma876/trace-v4-iswa`, with the immutable ISWA release at `https://github.com/Nesma876/trace-v4-iswa/releases/tag/trace-v4-iswa-submission`. No DOI has been minted.
 
 ## Scientific objective and design
 
@@ -38,5 +38,5 @@ Only four fixed configurations were compared without architecture-specific optim
 
 ## Citation and license
 
-Use the manuscript metadata in `zenodo_metadata.json`; do not cite a DOI or public URL until verified. The MIT `LICENSE` covers repository code. PhysioNet terms remain separate, and checkpoint redistribution is not asserted.
+Use the manuscript metadata in `zenodo_metadata.json` and cite the tagged GitHub Release for the exact package. Do not cite a DOI unless one is subsequently minted and verified. The MIT `LICENSE` covers repository code. PhysioNet terms remain separate, and checkpoint redistribution is not asserted.
 

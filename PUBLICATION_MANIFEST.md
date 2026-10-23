@@ -27,4 +27,13 @@ Only the staged public-cleared bundle: source/evaluation code, frozen configurat
 - MIT covers repository code; PhysioNet terms remain separate and checkpoint licensing is not asserted.
 - No Zenodo action or DOI minting is authorized here.
 
-No push, release upload, visibility change, tag publication, or archive deposit has occurred. Explicit approval of this target and content is required first.
+## Publication outcome
+
+Approved and published on 2026-10-23:
+
+- Repository: https://github.com/Nesma876/trace-v4-iswa
+- Release: https://github.com/Nesma876/trace-v4-iswa/releases/tag/trace-v4-iswa-submission
+- Immutable release commit: `065446836f7af793246070409c2dbe4917b75327`
+- Annotated tag: `trace-v4-iswa-submission`
+
+Unauthenticated API and raw-file access were verified. No archive deposit or DOI minting was performed.

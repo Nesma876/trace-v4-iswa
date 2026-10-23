@@ -106,8 +106,8 @@ PhysioNet 2019 was introduced for early sepsis prediction \cite{reyna2020sepsis}
 \toprule
 Study & Primary task & Main evaluation & Distinction from TRACE \\
 \midrule
-Reyna et al. \cite{reyna2020sepsis} & Early sepsis prediction & Utility/discrimination & Endpoint classification; no recursive state simulation \\
-Singh et al. \cite{singh2021missingness} & Missingness-aware prediction & Predictive performance/robustness & Missingness as signal; no trajectory-fidelity analysis \\
+Reyna et al. \cite{reyna2020sepsis} & Early sepsis prediction & Utility and discrimination & Endpoint classification; no recursive state simulation \\
+Singh et al. \cite{singh2021missingness} & Missingness-aware prediction & Predictive performance and robustness & Missingness as signal; no trajectory-fidelity analysis \\
 Kim \& Lee \cite{kim2024temporalprior} & Temporal-prior EHR prediction & Classification performance & Predictive architecture comparison \\
 Liu et al. \cite{liu2026mtfpdg} & 24$\rightarrow$24 h forecasting & MSE, MAE, MRE, RMSE, MAPE & Direct fixed-window forecast \\
 TRACE & Recursive trajectory evaluation & Fit, rollout, dynamics, reliability, density & Tests criterion-dependent selection and transportability \\
@@ -619,18 +619,20 @@ provides acquisition instructions, deterministic split reconstruction
 with seed 4317, expected cohort counts, and a canonical split hash.
 
 \section*{Code availability}
-A versioned scientific release candidate containing source code, frozen
-configurations, validation-selected checkpoints, aggregate result
-tables, bootstrap replicate arrays, automated tests, figure-generation
-code, and a SHA-256 artifact manifest was verified locally against Git
-commit \texttt{fe5110d} (full hash recorded in the artifact manifest). All 59
+A redistribution-cleared scientific package containing source code,
+frozen configurations, aggregate result tables, bootstrap replicate
+arrays, automated tests, figure-generation code, and a SHA-256 artifact
+manifest is publicly available at
+\url{https://github.com/Nesma876/trace-v4-iswa}. The immutable release
+tag and attached manuscript and verification assets are available at
+\url{https://github.com/Nesma876/trace-v4-iswa/releases/tag/trace-v4-iswa-submission}.
+The release preserves the experiment associated with Git commit
+\texttt{fe5110d} (full hash recorded in the artifact manifest). All 59
 reconciled manuscript values matched their canonical artifacts, and the
 102-test synthetic/unit regression suite passed, including 17 targeted
-methods-audit tests. At the time this manuscript was finalized, the
-release had not yet been published at a verified public URL; therefore,
-no public repository or archive link is claimed here. Public access
-details will be added only after the redistribution-cleared package and
-immutable release tag have been independently verified online.
+methods-audit tests. Checkpoint binaries are not redistributed because
+their publication rights remain under review; their verified hashes and
+audit status are documented in the release.
 
 \section*{Reproducibility and supplementary material}
 The supplementary reproducibility package documents the software

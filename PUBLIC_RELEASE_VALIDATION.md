@@ -1,6 +1,6 @@
 # Public release validation
 
-Status: local public-staging validation completed; external publication not executed.
+Status: local validation and approved public publication completed.
 
 ## Verified evidence
 
@@ -31,4 +31,11 @@ Status: local public-staging validation completed; external publication not exec
 
 ## Unresolved limitations
 
-No public GitHub URL, GitHub Release, public tag, Zenodo archive, or DOI exists. Checkpoint redistribution rights remain unresolved. Journal instructions were not independently retrieved. Availability statements therefore make no public-link claim.
+The public repository and GitHub Release were verified through unauthenticated GitHub API and raw-content requests. Checkpoint redistribution rights remain unresolved. No Zenodo archive or DOI exists. Journal instructions were not independently retrieved.
+
+## Verified public locations
+
+- Repository: https://github.com/Nesma876/trace-v4-iswa
+- Release: https://github.com/Nesma876/trace-v4-iswa/releases/tag/trace-v4-iswa-submission
+- Release commit: `065446836f7af793246070409c2dbe4917b75327`
+- Release assets: `TRACE_ISWA_final.pdf`, `ARTIFACT_MANIFEST.csv`, and `RESULTS_VERIFICATION.csv`.

@@ -10,7 +10,7 @@ The local candidate retains 20/20 selected checkpoint hashes, 59/59 reconciled m
 
 ## C. Publicly released resources
 
-None. A public-cleared bundle has been staged locally, but no push, public tag, GitHub Release, archive deposit, or DOI creation has occurred.
+The redistribution-cleared package is public at https://github.com/Nesma876/trace-v4-iswa. The immutable release is https://github.com/Nesma876/trace-v4-iswa/releases/tag/trace-v4-iswa-submission at commit `065446836f7af793246070409c2dbe4917b75327`. No archive deposit or DOI creation occurred.
 
 ## D. Resources deliberately excluded
 
@@ -18,6 +18,6 @@ Raw PhysioNet records, patient-ID splits, patient-level sufficient statistics, c
 
 ## E. Remaining submission limitations
 
-The author must approve the proposed clean GitHub target and publication contents. Checkpoint rights must be resolved separately if weight distribution is desired. Public links can be inserted only after publication and unauthenticated verification. Current ISWA author instructions were not independently retrievable during this run.
+Checkpoint rights must be resolved separately if weight distribution is desired. No permanent archive DOI exists. Current ISWA author instructions were not independently retrievable during this run.
 
-**Verdict: PUBLICATION APPROVAL REQUIRED.**
+**Verdict: READY FOR ISWA SUBMISSION.**
