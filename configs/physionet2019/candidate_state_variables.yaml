@@ -1,0 +1,287 @@
+{
+  "source": "https://physionet.org/content/challenge-2019/1.0.0/",
+  "version": "1.0.0",
+  "selection_scope": "Set A training only",
+  "variables": [
+    {
+      "name": "HR",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "O2Sat",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Temp",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "SBP",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "MAP",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "DBP",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Resp",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "EtCO2",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "BaseExcess",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "HCO3",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "FiO2",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "pH",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "PaCO2",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "SaO2",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "AST",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "BUN",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Alkalinephos",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Calcium",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Chloride",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Creatinine",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Bilirubin_direct",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Glucose",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Lactate",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Magnesium",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Phosphate",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Potassium",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Bilirubin_total",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "TroponinI",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Hct",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Hgb",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "PTT",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "WBC",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Fibrinogen",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Platelets",
+      "role": "dynamic_state",
+      "candidate": true,
+      "decision": "availability_and_nondegenerate_scale_predefined_in_protocol",
+      "rationale": "native physiological measurement; retain sparse variables if estimable"
+    },
+    {
+      "name": "Age",
+      "role": "static_context",
+      "candidate": false,
+      "rationale": "retained for audit; excluded from primary model inputs and targets"
+    },
+    {
+      "name": "Gender",
+      "role": "static_context",
+      "candidate": false,
+      "rationale": "retained for audit; excluded from primary model inputs and targets"
+    },
+    {
+      "name": "Unit1",
+      "role": "static_context",
+      "candidate": false,
+      "rationale": "retained for audit; excluded from primary model inputs and targets"
+    },
+    {
+      "name": "Unit2",
+      "role": "static_context",
+      "candidate": false,
+      "rationale": "retained for audit; excluded from primary model inputs and targets"
+    },
+    {
+      "name": "HospAdmTime",
+      "role": "static_context",
+      "candidate": false,
+      "rationale": "retained for audit; excluded from primary model inputs and targets"
+    },
+    {
+      "name": "ICULOS",
+      "role": "time_context",
+      "candidate": false,
+      "rationale": "retained for audit; excluded from primary model inputs and targets"
+    },
+    {
+      "name": "SepsisLabel",
+      "role": "label",
+      "candidate": false,
+      "rationale": "retrospective subgroups only; never input or target"
+    }
+  ]
+}

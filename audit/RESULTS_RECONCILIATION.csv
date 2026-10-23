@@ -1,0 +1,61 @@
+location,metric,model,manuscript_value,repository_value,artifact,verification_level,discrepancy,status
+Methods,Set A patients,all,20336,20336,outputs/v4_physionet2019/data_inventory.json,read aggregate artifact,0,MATCH
+Methods,Set B patients,all,20000,20000,outputs/v4_physionet2019/data_inventory.json,read aggregate artifact,0,MATCH
+Methods,Set A train patients,all,14198,14198,outputs/v4_physionet2019/cohort_summary.csv,read aggregate artifact,0,MATCH
+Methods,Set A validation patients,all,3011,3011,outputs/v4_physionet2019/cohort_summary.csv,read aggregate artifact,0,MATCH
+Methods,Set A internal-test patients,all,3127,3127,outputs/v4_physionet2019/cohort_summary.csv,read aggregate artifact,0,MATCH
+Methods,Set A train rows,all,553473,553473,outputs/v4_physionet2019/cohort_summary.csv,read aggregate artifact,0,MATCH
+Methods,Set A validation rows,all,116152,116152,outputs/v4_physionet2019/cohort_summary.csv,read aggregate artifact,0,MATCH
+Methods,Set A internal-test rows,all,120590,120590,outputs/v4_physionet2019/cohort_summary.csv,read aggregate artifact,0,MATCH
+Methods,common-48h origins,all,8690,8690,outputs/v4_internal/analysis/common_variable_eligibility.json,read aggregate artifact,0,MATCH
+Methods,common-48h patients,all,473,473,outputs/v4_physionet2019/cohort_summary.csv,read aggregate artifact,0,MATCH
+Methods,primary variables,all,29,29,outputs/v4_internal/analysis/common_variable_eligibility.json,read aggregate artifact,0,MATCH
+Table 1,validation NLL,linear_ar,0.9910+/-0.0000,0.9909613865+/-0,outputs/v4_internal/tables/jbi_core_training_status.csv,recomputed mean/SD from five stored rows,rounding,MATCH
+Table 1,validation NLL,gru,0.8693+/-0.0015,0.8693265484+/-0.001478,outputs/v4_internal/tables/jbi_core_training_status.csv,recomputed mean/SD from five stored rows,rounding,MATCH
+Table 1,validation NLL,transformer,0.8394+/-0.0020,0.8393803466+/-0.002027,outputs/v4_internal/tables/jbi_core_training_status.csv,recomputed mean/SD from five stored rows,rounding,MATCH
+Table 1,validation NLL,rssm,57.0183+/-2.3563,57.0183213443+/-2.3563,outputs/v4_internal/tables/jbi_core_training_status.csv,recomputed mean/SD from five stored rows,rounding,MATCH
+Table 1,internal 1-step nMacroMAE,linear_ar,0.4112,0.4111721489,outputs/v4_internal/tables/jbi_one_step_performance.csv,read seed rows/mean,rounding,MATCH
+Table 1,internal 1-step nMacroMAE,gru,0.4484,0.4483745122,outputs/v4_internal/tables/jbi_one_step_performance.csv,recomputed mean,rounding,MATCH
+Table 1,internal 1-step nMacroMAE,transformer,0.4076,0.4076047455,outputs/v4_internal/tables/jbi_one_step_performance.csv,recomputed mean,rounding,MATCH
+Table 1,internal 1-step nMacroMAE,rssm,0.6230,0.6229983039,outputs/v4_internal/tables/jbi_one_step_performance.csv,recomputed mean,rounding,MATCH
+Table 1,Set B 1-step NLL,linear_ar,1.7557+/-0.0000,1.7557+/-0.0000,outputs/v4_external/tables/jbi_one_step_performance.csv,read aggregate artifact,rounding,MATCH
+Table 1,Set B 1-step NLL,gru,1.6092+/-0.0437,1.6092+/-0.0437,outputs/v4_external/tables/jbi_one_step_performance.csv,read aggregate artifact,rounding,MATCH
+Table 1,Set B 1-step NLL,transformer,1.5749+/-0.0935,1.5749412083+/-0.09349398,outputs/v4_external/tables/jbi_one_step_performance.csv,read aggregate artifact,rounding,MATCH
+Table 1,Set B 1-step NLL,rssm,14.6212+/-1.1809,14.6212+/-1.1809,outputs/v4_external/tables/jbi_one_step_performance.csv,read aggregate artifact,rounding,MATCH
+Results,internal 48h nMacroMAE,rssm,0.765 [0.740;0.790],0.76516199 [0.74013614;0.78984050],outputs/v4_internal/tables/bootstrap_intervals.csv,read final bootstrap artifact,rounding,MATCH
+Results,internal 48h nMacroMAE,transformer,0.769 [0.727;0.818],0.76875857 [0.72685862;0.81828291],outputs/v4_internal/tables/bootstrap_intervals.csv,read final bootstrap artifact,rounding,MATCH
+Results,internal 48h nMacroMAE,gru,0.786 [0.738;0.835],0.78622714 [0.73831684;0.83458241],outputs/v4_internal/tables/bootstrap_intervals.csv,read final bootstrap artifact,rounding,MATCH
+Results,internal 48h state difference,transformer-rssm,0.0036 [-0.0424;0.0622],0.00359657 [-0.04242392;0.06224491],outputs/v4_internal/tables/paired_comparisons.csv,read final paired artifact,rounding,MATCH
+Results,internal 4h nMacroMAE,linear_ar,0.560 [0.543;0.577],0.55962323 [0.54262567;0.57703442],outputs/v4_internal/tables/bootstrap_intervals.csv,read final bootstrap artifact,rounding,MATCH
+Results,internal 48h nMacroMAE,linear_ar,4.582 [4.327;4.818],4.58170893 [4.32654109;4.81770080],outputs/v4_internal/tables/bootstrap_intervals.csv,read final bootstrap artifact,rounding,MATCH
+Results,internal 48h difference,linear_ar-rssm,3.8165 [3.5683;4.0565],3.81654694 [3.56832019;4.05647118],outputs/v4_internal/tables/paired_comparisons.csv,read final paired artifact,rounding,MATCH
+Results,internal 48h DynamicMAE,linear_ar,0.348,0.34845454,outputs/v4_internal/tables/table_3_dynamic_fidelity.csv,read aggregate artifact,rounding,MATCH
+Results,internal 48h DynamicMAE,gru,0.288,0.28794805,outputs/v4_internal/tables/table_3_dynamic_fidelity.csv,read aggregate artifact,rounding,MATCH
+Results,internal 48h DynamicMAE,transformer,0.283,0.28258673,outputs/v4_internal/tables/table_3_dynamic_fidelity.csv,read aggregate artifact,rounding,MATCH
+Results,internal 48h DynamicMAE,rssm,0.279,0.27886463,outputs/v4_internal/tables/table_3_dynamic_fidelity.csv,read aggregate artifact,rounding,MATCH
+Results,internal 48h DynamicMAE difference,transformer-rssm,0.00372 [0.00093;0.00650],0.00372209 [0.00093;0.00650],outputs/v4_internal/tables/jbi_48h_dynamic_paired_ci.csv,read corrected finite-draw artifact,rounding,MATCH
+Results,internal 48h change-variance ratio,linear_ar,78.738,78.73782711,outputs/v4_internal/tables/table_3_dynamic_fidelity.csv,read aggregate artifact,rounding,MATCH
+Results,internal 48h change-variance ratio,gru,0.301,0.30091462,outputs/v4_internal/tables/table_3_dynamic_fidelity.csv,read aggregate artifact,rounding,MATCH
+Results,internal 48h change-variance ratio,transformer,0.238,0.2379,outputs/v4_internal/tables/table_3_dynamic_fidelity.csv,read aggregate artifact,rounding,MATCH
+Results,internal 48h change-variance ratio,rssm,0.121,0.1210,outputs/v4_internal/tables/table_3_dynamic_fidelity.csv,read aggregate artifact,rounding,MATCH
+Results,internal coverage nominal 50%,transformer,0.472,0.472,outputs/v4_internal/tables/table_4_reliability.csv,read aggregate artifact,rounding,MATCH
+Results,internal coverage nominal 80%,transformer,0.769,0.769,outputs/v4_internal/tables/table_4_reliability.csv,read aggregate artifact,rounding,MATCH
+Results,internal coverage nominal 95%,transformer,0.911,0.91085911,outputs/v4_internal/tables/table_4_reliability.csv,read aggregate artifact,rounding,MATCH
+Results,internal absolute 95% coverage error,transformer,0.059,0.05914089,outputs/v4_internal/tables/bootstrap_intervals.csv,read aggregate artifact,rounding,MATCH
+Results,internal coverage nominal 95%,linear_ar,0.254,0.25398386,outputs/v4_internal/tables/table_4_reliability.csv,read aggregate artifact,rounding,MATCH
+Results,Set B 48h nMacroMAE,transformer,0.8732 [0.8357;0.9129],0.873196 [0.8357;0.9129],outputs/v4_external/tables/bootstrap_intervals.csv,read final bootstrap artifact,rounding,MATCH
+Results,Set B 48h nMacroMAE,rssm,0.8850 [0.8603;0.9095],0.885010 [0.860281;0.909492],outputs/v4_external/tables/bootstrap_intervals.csv,read final bootstrap artifact,rounding,MATCH
+Results,Set B 48h state difference,transformer-rssm,-0.01181 [-0.04302;0.02068],-0.011814 [-0.043022;0.020679],outputs/v4_external/tables/paired_comparisons.csv,read final paired artifact,rounding,MATCH
+Results,Set B 48h nMacroMAE,linear_ar,6.1021 [5.6982;6.6039],6.102105 [5.698180;6.603926],outputs/v4_external/tables/bootstrap_intervals.csv,read final bootstrap artifact,rounding,MATCH
+Results,Set B 48h DynamicMAE,rssm,0.5452 [0.5012;0.5963],0.5452 [0.5012;0.5963],outputs/v4_external/tables/bootstrap_intervals.csv,read final bootstrap artifact,rounding,MATCH
+Results,Set B 48h DynamicMAE,transformer,0.5489 [0.5049;0.5999],0.5489 [0.5049;0.5999],outputs/v4_external/tables/bootstrap_intervals.csv,read final bootstrap artifact,rounding,MATCH
+Results,Set B 48h DynamicMAE difference,transformer-rssm,0.00367 [0.00211;0.00532],0.003666 [0.002114;0.005317],outputs/v4_external/tables/paired_comparisons.csv,read final paired artifact,rounding,MATCH
+Results,Set B change-variance ratio,gru,0.0425,0.0425,outputs/v4_external/tables/table_3_dynamic_fidelity.csv,read aggregate artifact,rounding,MATCH
+Results,Set B change-variance ratio,transformer,0.0458,0.0458,outputs/v4_external/tables/table_3_dynamic_fidelity.csv,read aggregate artifact,rounding,MATCH
+Results,Set B change-variance ratio,rssm,0.0160,0.0160,outputs/v4_external/tables/table_3_dynamic_fidelity.csv,read aggregate artifact,rounding,MATCH
+Results,Set B change-variance ratio,linear_ar,7.2376,7.2376,outputs/v4_external/tables/table_3_dynamic_fidelity.csv,read aggregate artifact,rounding,MATCH
+Results,Set B absolute 95% coverage error,transformer,0.0705,0.0705,outputs/v4_external/tables/bootstrap_intervals.csv,read aggregate artifact,rounding,MATCH
+Results,Set B absolute 95% coverage error,gru,0.1034,0.1034,outputs/v4_external/tables/bootstrap_intervals.csv,read aggregate artifact,rounding,MATCH
+Results,Set B absolute 95% coverage error,rssm,0.1633,0.1633,outputs/v4_external/tables/bootstrap_intervals.csv,read aggregate artifact,rounding,MATCH
+Results,Set B absolute 95% coverage error,linear_ar,0.7286,0.7286,outputs/v4_external/tables/bootstrap_intervals.csv,read aggregate artifact,rounding,MATCH
+

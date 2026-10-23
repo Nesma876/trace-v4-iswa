@@ -1,0 +1,15 @@
+{
+  "Set_B_predictive_evaluation_performed": true,
+  "checkpoint_manifest_hash": "b5fa4e127b9d857d214b3a8f2b02c1fd7dae943fc5dd025a024fa090b22a87ad",
+  "config_hash": "63548ed3f880d2f0bf06355919949136d42793c1e99ccfbbe95a79bb1eb2a804",
+  "frozen_metrics_applied": true,
+  "frozen_preprocessing_applied": true,
+  "origins": 621995,
+  "patients": 20000,
+  "preprocessing_hash": "68fd7519f1675fa232df04ac428716597736b69a741b490defa10d3964f5508f",
+  "prior_evaluation": false,
+  "recovery_reason": "automated preflight process interrupted before cohort table or inference artifacts",
+  "recovery_unix": 1789035580.5391972,
+  "started_unix": 1789034957.3574932,
+  "status": "resumed_after_aborted_data_load"
+}

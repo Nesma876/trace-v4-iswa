@@ -1,0 +1,45 @@
+{
+  "version": "final_pre_model_v1",
+  "primary": [
+    "MacroMAE",
+    "MacroRMSE"
+  ],
+  "secondary": [
+    "MicroMAE",
+    "MicroRMSE"
+  ],
+  "scale": "Set A training standard deviation units after canonicalization",
+  "macro": "arithmetic mean of eligible per-variable MAEs / RMSEs",
+  "micro": "pool all observed target residuals, including sparse variables; denominator reported",
+  "per_variable_metrics_mandatory": true,
+  "observed_target_only_scoring": true,
+  "min_observed_target_instances": 100,
+  "insufficient_status": "INSUFFICIENT_TARGET_OBSERVATIONS",
+  "required_fields": [
+    "model",
+    "horizon",
+    "cohort",
+    "variable",
+    "N_observed_targets",
+    "MAE",
+    "RMSE",
+    "status"
+  ],
+  "horizons": [
+    4,
+    12,
+    24,
+    48
+  ],
+  "hourly_steps": true,
+  "common_cohort_analysis": true,
+  "cohorts": [
+    "full_available",
+    "common_48h"
+  ],
+  "cross_horizon_primary_variable_support": "intersection of eligible variables across all four horizons in common_48h cohort",
+  "endpoint_scoring": true,
+  "dynamic_metric_mask": "both adjacent true observations required",
+  "unobserved_prediction_errors": "fail if predictions nonfinite where ground truth observed",
+  "training_loss": "observed-target masked Gaussian NLL; no imputed ground truth"
+}

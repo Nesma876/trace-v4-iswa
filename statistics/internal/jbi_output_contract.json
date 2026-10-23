@@ -1,0 +1,26 @@
+{
+  "Set_B_locked": true,
+  "figures": [
+    "02_mae_horizon.png",
+    "03_dynamic_mae_horizon.png",
+    "04_change_variance_ratio_horizon.png",
+    "06_nll_calibration.png",
+    "supplement_calibration_all_horizons.png",
+    "12_jbi_density_strata.png"
+  ],
+  "status": "IMPLEMENTED",
+  "tables": [
+    "jbi_core_training_status.csv",
+    "jbi_one_step_performance.csv",
+    "jbi_one_step_per_variable.csv",
+    "table_2_state_fidelity.csv",
+    "table_3_dynamic_fidelity.csv",
+    "table_4_reliability.csv",
+    "jbi_density_sensitivity.csv",
+    "jbi_deep_vs_linear_by_density.csv",
+    "jbi_density_rankings.csv",
+    "jbi_model_selection_consistency.csv",
+    "paired_comparisons.csv",
+    "bootstrap_intervals.csv"
+  ]
+}

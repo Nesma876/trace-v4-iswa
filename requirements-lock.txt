@@ -1,0 +1,8 @@
+# Exact environment used for the final reviewer-readiness audit on Python 3.12.14.
+# Platform-specific transitive dependencies are intentionally omitted.
+numpy==2.3.5
+pandas==3.0.1
+PyYAML==6.0.3
+matplotlib==3.11.1
+pytest==9.1.1
+torch==2.14.0

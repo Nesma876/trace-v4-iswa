@@ -1,0 +1,8 @@
+{
+  "role": "secondary sensitivity; never replaces frozen 33-variable primary",
+  "criterion": "Set A train post-policy missingness percentage <= 80",
+  "threshold_percent": 80,
+  "variables": ["HR", "O2Sat", "Temp", "SBP", "MAP", "DBP", "Resp"],
+  "source": "outputs/v4_physionet2019/audit/trainA_missingness.csv",
+  "selected_before_model_results": true
+}

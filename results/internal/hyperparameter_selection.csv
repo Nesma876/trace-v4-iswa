@@ -1,0 +1,5 @@
+model,config_hash,search_trials,selection_data,configuration
+linear_ar,63548ed3f880d2f0bf06355919949136d42793c1e99ccfbbe95a79bb1eb2a804,1,Set A validation only,"{""ridge"": 0.05}"
+gru,63548ed3f880d2f0bf06355919949136d42793c1e99ccfbbe95a79bb1eb2a804,1,Set A validation only,"{""dropout"": 0.1, ""hidden_size"": 64, ""num_layers"": 2}"
+transformer,63548ed3f880d2f0bf06355919949136d42793c1e99ccfbbe95a79bb1eb2a804,1,Set A validation only,"{""d_model"": 64, ""dim_feedforward"": 128, ""dropout"": 0.1, ""max_len"": 4, ""n_heads"": 4, ""n_layers"": 2}"
+rssm,63548ed3f880d2f0bf06355919949136d42793c1e99ccfbbe95a79bb1eb2a804,1,Set A validation only,"{""deterministic_dim"": 64, ""hidden_dim"": 64, ""latent_dim"": 16}"

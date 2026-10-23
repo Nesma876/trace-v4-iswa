@@ -1,0 +1,63 @@
+{
+  "version": "final_pre_model_v1",
+  "dynamic_variables": [
+    "HR",
+    "O2Sat",
+    "Temp",
+    "SBP",
+    "MAP",
+    "DBP",
+    "Resp",
+    "BaseExcess",
+    "HCO3",
+    "FiO2",
+    "pH",
+    "PaCO2",
+    "SaO2",
+    "AST",
+    "BUN",
+    "Alkalinephos",
+    "Calcium",
+    "Chloride",
+    "Creatinine",
+    "Bilirubin_direct",
+    "Glucose",
+    "Lactate",
+    "Magnesium",
+    "Phosphate",
+    "Potassium",
+    "Bilirubin_total",
+    "TroponinI",
+    "Hct",
+    "Hgb",
+    "PTT",
+    "WBC",
+    "Fibrinogen",
+    "Platelets"
+  ],
+  "excluded_dynamic": {
+    "EtCO2": "zero Set A training observations"
+  },
+  "static_context": [
+    "Age",
+    "Gender",
+    "Unit1",
+    "Unit2",
+    "HospAdmTime"
+  ],
+  "time_context": [
+    "ICULOS"
+  ],
+  "label": [
+    "SepsisLabel"
+  ],
+  "context_model_inputs": [],
+  "action_dim": 0,
+  "input_channels": [
+    "canonical_value",
+    "observation_mask",
+    "time_since_last_observation"
+  ],
+  "feature_decisions_source": "Set A training only",
+  "label_as_input_or_target": false
+}

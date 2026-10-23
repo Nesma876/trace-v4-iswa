@@ -1,0 +1,54 @@
+{
+  "core_prespecified": [
+    "HR",
+    "O2Sat",
+    "Temp",
+    "SBP",
+    "MAP"
+  ],
+  "selected_before_internal_test": true,
+  "source": "Set A training post-policy missingness only",
+  "strata": {
+    "jbi_core_dense": [
+      "HR",
+      "O2Sat",
+      "Temp",
+      "SBP",
+      "MAP"
+    ],
+    "other_le_80pct_missing": [
+      "DBP",
+      "Resp"
+    ],
+    "sparse_gt80_to_95pct_missing": [
+      "BaseExcess",
+      "HCO3",
+      "FiO2",
+      "pH",
+      "PaCO2",
+      "BUN",
+      "Chloride",
+      "Creatinine",
+      "Glucose",
+      "Magnesium",
+      "Phosphate",
+      "Potassium",
+      "Hct",
+      "Hgb",
+      "WBC",
+      "Platelets"
+    ],
+    "very_sparse_gt95pct_missing": [
+      "SaO2",
+      "AST",
+      "Alkalinephos",
+      "Calcium",
+      "Bilirubin_direct",
+      "Lactate",
+      "Bilirubin_total",
+      "TroponinI",
+      "PTT",
+      "Fibrinogen"
+    ]
+  }
+}

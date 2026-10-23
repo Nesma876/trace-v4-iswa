@@ -1,0 +1,44 @@
+{
+  "H1": "inconclusive",
+  "H2": "not tested",
+  "H2_status": "pending separately authorized external Set B evaluation",
+  "H3": "partially supported",
+  "H4": "inconclusive",
+  "H5": "V3.1 synthetic evidence only",
+  "Set_B_locked": true,
+  "Set_B_predictive_evaluation_performed": false,
+  "interpretation": "Conservative internal evidence only. Rank differences alone do not establish universal implications; paired uncertainty and per-variable dynamics must be read alongside aggregate metrics.",
+  "rankings": {
+    "48h_calibration": [
+      "transformer",
+      "gru",
+      "rssm",
+      "linear_ar"
+    ],
+    "48h_dynamics": [
+      "rssm",
+      "transformer",
+      "gru",
+      "linear_ar"
+    ],
+    "48h_nll": [
+      "transformer",
+      "gru",
+      "rssm",
+      "linear_ar"
+    ],
+    "48h_state": [
+      "rssm",
+      "transformer",
+      "gru",
+      "linear_ar"
+    ],
+    "4h_state": [
+      "transformer",
+      "linear_ar",
+      "gru",
+      "rssm"
+    ]
+  },
+  "reliability_best": "No composite winner: NLL, calibration, width and selective risk remain separate dimensions."
+}

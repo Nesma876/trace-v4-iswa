@@ -1,0 +1,26 @@
+{
+  "seeds": [17, 23, 31, 43, 59],
+  "history_hours": 4,
+  "horizons": [4, 12, 24, 48],
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 512,
+  "max_epochs": 200,
+  "patience": 20,
+  "gradient_clip": 1.0,
+  "rssm_kl_weight": 0.01,
+  "checkpoint_criterion": "one-step observed-target pooled validation Gaussian NLL; prior only",
+  "calibration": "none; raw learned predictive distributions",
+  "models": {
+    "linear_ar": {"ridge": 0.05},
+    "gru": {"hidden_size": 64, "num_layers": 2, "dropout": 0.1},
+    "transformer": {"d_model": 64, "n_heads": 4, "n_layers": 2, "dim_feedforward": 128, "dropout": 0.1, "max_len": 4},
+    "rssm": {"deterministic_dim": 64, "latent_dim": 16, "hidden_dim": 64}
+  },
+  "sanity": {"patients": 16, "seed": 17, "max_updates": 1500, "required_mae_ratio": 0.5},
+  "bootstrap": {"replicates": 1000, "seed": 4317, "unit": "paired patients with replacement and paired seeds with replacement"},
+  "candidate_selection": "lowest validation NLL across five seeds; seed ascending breaks ties",
+  "failure_percentiles": {"low": 25, "high": 75},
+  "pareto": ["48h MacroMAE", "48h DynamicMAE", "48h NLL", "48h absolute 95% coverage error"]
+}

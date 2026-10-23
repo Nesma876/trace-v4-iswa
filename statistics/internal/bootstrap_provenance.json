@@ -1,0 +1,15 @@
+{
+  "aggregate_means_bootstrapped": false,
+  "eligibility": "fixed original common-48h intersection; ratios recomputed in each replicate",
+  "paired_models": [
+    "linear_ar",
+    "gru",
+    "transformer",
+    "rssm"
+  ],
+  "replicates": 2000,
+  "row_level_resampling": false,
+  "same_patient_draws_for_all_models": true,
+  "seed": 4317,
+  "unit": "patient and modelling seed"
+}

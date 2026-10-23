@@ -1,0 +1,9 @@
+{
+  "mask_sha256": "380408e67243ca82bf8d98b97fa353b9383f98abba56a4b5609ea4cc4d9e505d",
+  "origin_count": 621995,
+  "patient_count": 20000,
+  "processed_mask_stream_sha256": "380408e67243ca82bf8d98b97fa353b9383f98abba56a4b5609ea4cc4d9e505d",
+  "processed_truth_stream_sha256": "1cc23722afd816552c5f0cc9d52cf54d0fd64fb0a20b862054f8e5e73f8a6584",
+  "streamed_without_cross_patient_windows": true,
+  "subgroup_sha256": "03d91aa47b9a7b6ee4a8486d079d7230e45d77bd8fafcf5c3784a3befbc381a8"
+}

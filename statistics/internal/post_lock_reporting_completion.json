@@ -1,0 +1,12 @@
+{
+  "Set_B_locked": true,
+  "bootstrap_seed": 4317,
+  "inference_rerun": false,
+  "label": "POST-LOCK REPORTING COMPLETION \u2014 PRESPECIFIED ANALYSIS, MISSING CI",
+  "outputs": [
+    "jbi_48h_dynamic_paired_ci.csv",
+    "jbi_density_paired_ci.csv",
+    "jbi_model_selection_consistency.csv"
+  ],
+  "resamples": 2000
+}

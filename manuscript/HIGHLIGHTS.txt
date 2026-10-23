@@ -1,0 +1,5 @@
+- TRACE evaluates clinical simulators across distinct fit-for-purpose criteria.
+- One-step predictive fit did not determine long-horizon recursive suitability.
+- Transformer and RSSM were unresolved for 48-hour recursive state fidelity.
+- RSSM lowered change error but showed the strongest neural variance contraction.
+- Evaluation-axis dependence persisted across two PhysioNet hospital systems.

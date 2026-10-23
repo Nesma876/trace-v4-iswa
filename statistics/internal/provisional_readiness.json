@@ -1,0 +1,5 @@
+{
+  "Set_B_locked": true,
+  "decision": "READY FOR EXTERNAL SET B",
+  "requires_final_tests_and_visual_QA": true
+}

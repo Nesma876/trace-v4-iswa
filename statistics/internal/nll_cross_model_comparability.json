@@ -1,0 +1,15 @@
+{
+  "cross_model_comparable": true,
+  "target_normalization": "identical A-training normalization",
+  "target_mask": "identical observed-target mask",
+  "likelihood": "Gaussian negative log likelihood",
+  "log_variance_clamp": [-6.0, 3.0],
+  "validation_reduction": "pooled observed targets",
+  "internal_reduction": "per-variable then variable-equal macro aggregation",
+  "rssm_validation_nll": 57.01832134426943,
+  "rssm_internal_common48_one_step_nll": 16.95006469050877,
+  "explanation": "RSSM predictive under-dispersion concentrated in Resp, MAP, O2Sat and HR; all five seeds affected",
+  "scientific_blocker": false,
+  "inference_rerun": false,
+  "Set_B_locked": true
+}

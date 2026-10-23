@@ -1,0 +1,13 @@
+{
+  "addendum": {
+    "path": "analysis/external_manifest_addendum.json",
+    "sha256": "3235731df2ac806634a177b494740950a9ba910ae6b6cc8768e2270c03ce960a"
+  },
+  "created_utc": "2026-09-11T07:10:50.203630+00:00",
+  "inference_rerun": false,
+  "label": "final read-only manifest referencing preserved history and addendum",
+  "original_manifest": {
+    "path": "analysis/immutable_manifest.json",
+    "sha256": "6c27f467b7127e138123379b95272006a59f3e3370b78aa62a0a0dbb299ab056"
+  }
+}

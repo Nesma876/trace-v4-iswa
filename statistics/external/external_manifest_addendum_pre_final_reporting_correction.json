@@ -1,0 +1,289 @@
+{
+  "created_utc": "2026-09-11T07:08:09.931985+00:00",
+  "current_event_sha256": "255a8f677f6eac92f37b9e4dbdf47247b67f17babb272569788182e044430d36",
+  "event_file_modified_utc": "2026-09-11T06:26:41.381917+00:00",
+  "event_is_scientific_result": false,
+  "final_artifacts": [
+    {
+      "path": "analysis\\bootstrap_provenance.json",
+      "sha256": "ea4abd1b94fb6a79faa17feb1ba29cd076a4f80a84a84516cd36a7ab6daae459"
+    },
+    {
+      "path": "analysis\\common_variable_eligibility.json",
+      "sha256": "c0a5a1f0c4d0d08269f2b9c2128172a47027825e4da0087d65f1d861a0e78be7"
+    },
+    {
+      "path": "analysis\\density_bootstrap_estimand_audit.json",
+      "sha256": "99b11bc135a1d833c5d121250ad71ef07830e9888a4b884fe44b6f769816006a"
+    },
+    {
+      "path": "analysis\\evaluation_integrity.json",
+      "sha256": "9bcec53c828c1b91c28496df24b6a5b3d92f930469270b95df5d5cbedf7e0f0c"
+    },
+    {
+      "path": "analysis\\external_evaluation_event.json",
+      "sha256": "255a8f677f6eac92f37b9e4dbdf47247b67f17babb272569788182e044430d36"
+    },
+    {
+      "path": "analysis\\external_generalization.json",
+      "sha256": "6766246c83ae86f6e62e4540ef29f4697d8d71d6f71b4f4fe956e193270fc399"
+    },
+    {
+      "path": "analysis\\external_ground_truth_signature.json",
+      "sha256": "86d8dff62bd86fdb4995d5a5e10abfc607d2a3522c3001ac5e182ce2a00efdd9"
+    },
+    {
+      "path": "analysis\\immutable_manifest.json",
+      "sha256": "6c27f467b7127e138123379b95272006a59f3e3370b78aa62a0a0dbb299ab056"
+    },
+    {
+      "path": "analysis\\jbi_density_definition.json",
+      "sha256": "da60c47029bd0456c04d8d356136da6e07ce3ea1ab097a11b9b0d16ed75bcd5f"
+    },
+    {
+      "path": "analysis\\jbi_latent_fidelity_status.json",
+      "sha256": "fd20831defe6dbfe1201398710deba997cb6cf2221e6f6b318bf98ce7c487f4d"
+    },
+    {
+      "path": "local\\bootstrap_replicates.npz",
+      "sha256": "c212db2568666888caa3df34af2fde787dcbdc12a9891011ed02461674ab1ffa"
+    },
+    {
+      "path": "local\\gru_17_patient_stats.npz",
+      "sha256": "627e95cb60f61c1c5bbabc182d0bb43baa5fa6c83f68858d5f872f9a26a5bd28"
+    },
+    {
+      "path": "local\\gru_23_patient_stats.npz",
+      "sha256": "26e93307047bcd33a1022c36ef53ce99e43fddc7c0ca0f19d772afcae11f47e8"
+    },
+    {
+      "path": "local\\gru_31_patient_stats.npz",
+      "sha256": "f8436531269c55d8947c6c99386176de750916fcc97f6fe2629aaa68a0ed43e4"
+    },
+    {
+      "path": "local\\gru_43_patient_stats.npz",
+      "sha256": "87d5708b3d562030c145175f92654859cb78c5f0b045cf63f509d8eda19e481f"
+    },
+    {
+      "path": "local\\gru_59_patient_stats.npz",
+      "sha256": "2cbaadebc50cef36a82e9dc3bfa8fe8111910bff84939540f021cd02a45b2661"
+    },
+    {
+      "path": "local\\linear_ar_17_patient_stats.npz",
+      "sha256": "ba8e86786d9f33a71fe09b0b7e9d87dd402477983940b0a09bac4cc049c09038"
+    },
+    {
+      "path": "local\\linear_ar_23_patient_stats.npz",
+      "sha256": "3699824b8c33de89fbcab4b1b2f2d53f49fec4a29f867fc576cb25a132344f9e"
+    },
+    {
+      "path": "local\\linear_ar_31_patient_stats.npz",
+      "sha256": "18407e49dc691709581408a4e5ee4a33ad079fea0116827aa967ba199ddc94bf"
+    },
+    {
+      "path": "local\\linear_ar_43_patient_stats.npz",
+      "sha256": "865014f69357fff1b3588524e80c7425aa3736db6f812880f61705b5733946d4"
+    },
+    {
+      "path": "local\\linear_ar_59_patient_stats.npz",
+      "sha256": "a94932c8bde87e9231c14567abd504843e5ff33592e0996a4e723d0705ccf9b7"
+    },
+    {
+      "path": "local\\rssm_17_patient_stats.npz",
+      "sha256": "0cd799aaef4548fce75b26355f4a6248c520c2b28b4f744df71f4858ffb53087"
+    },
+    {
+      "path": "local\\rssm_23_patient_stats.npz",
+      "sha256": "c3643feb44ab4ac05ffa2d6ccaa730910424982bc8610ac2cf7d4fae653064b6"
+    },
+    {
+      "path": "local\\rssm_31_patient_stats.npz",
+      "sha256": "c7f1b340c3cd4bef0a0bf6cd48e94fe1c1bea736eb6a106be7d285c0a07f8b60"
+    },
+    {
+      "path": "local\\rssm_43_patient_stats.npz",
+      "sha256": "4fa7ebc110c6935c3a431497220d1149f92e11f8e9ac88be97e430f0a8f3a741"
+    },
+    {
+      "path": "local\\rssm_59_patient_stats.npz",
+      "sha256": "ce387b4efb4a572f521525acbd186da926de87d21d4877c679082dd195644bb6"
+    },
+    {
+      "path": "local\\transformer_17_patient_stats.npz",
+      "sha256": "4fcc580fa034761ea8776162cb359bf95ce46287d7270dd9631b803799f962ba"
+    },
+    {
+      "path": "local\\transformer_23_patient_stats.npz",
+      "sha256": "6d88338cab96fd85435baea933d4360332084fcc9d53fccb5c3c6b33e4532e19"
+    },
+    {
+      "path": "local\\transformer_31_patient_stats.npz",
+      "sha256": "c32e66551a65b702b3161b26780eee7b41627d1093ef1757dd01d6e37efd62dc"
+    },
+    {
+      "path": "local\\transformer_43_patient_stats.npz",
+      "sha256": "33a88572210dc0e4cc8dc26b652d6f25d9fc9c4d70378188a52448c033455b6a"
+    },
+    {
+      "path": "local\\transformer_59_patient_stats.npz",
+      "sha256": "9d495858df8b056a1470a4d6642dc35fa1463005f5fcc91399a01f6034f0b7f9"
+    },
+    {
+      "path": "tables\\bootstrap_intervals.csv",
+      "sha256": "4509560f4d12b7bd18cbddc21a69603467b2171c8ae92cebc40752e4f912c119"
+    },
+    {
+      "path": "tables\\calibration.csv",
+      "sha256": "41c67a6509bb842a89e51ed84db84573d0481b998ef7672851ec96f1036eb030"
+    },
+    {
+      "path": "tables\\E1_set_b_cohort_missingness.csv",
+      "sha256": "ee0646a1ec2ff95db9b051d63623388acb9281ee2b2e1c9968661a02dea28651"
+    },
+    {
+      "path": "tables\\E2_one_step_performance.csv",
+      "sha256": "97c8c7fdd7012c417fec8902aa10f5a64a30eaf735bb4d9ccc4cdc0ead2c6051"
+    },
+    {
+      "path": "tables\\E3_rollout_fidelity.csv",
+      "sha256": "ebcf40ea2c2e8768fd4a3d61ca84423ea0182e4df305df50c8ce6d1168a21d1e"
+    },
+    {
+      "path": "tables\\E4_dynamic_fidelity.csv",
+      "sha256": "b4301988f3770e92f6e0e5fcc05f0b449cb78e0dd6345eb85d883ac7ac9f82ce"
+    },
+    {
+      "path": "tables\\E5_reliability.csv",
+      "sha256": "80d07559042664eb5f37b40877cac0dfcbdd09855a8722f5ebb172d68b362f62"
+    },
+    {
+      "path": "tables\\E6_density_paired_ci.csv",
+      "sha256": "e68db9815e92996cf5acdd08cd84f06364014e061a1b96d733cad88fed7a3ab8"
+    },
+    {
+      "path": "tables\\E6_density_paired_ci_corrected.csv",
+      "sha256": "e68db9815e92996cf5acdd08cd84f06364014e061a1b96d733cad88fed7a3ab8"
+    },
+    {
+      "path": "tables\\E6_density_paired_ci_pre_estimand_audit.csv",
+      "sha256": "53ddf221455622fd3cb42cfd22909fe2d8ead631be57c319435e54bef39eb4b3"
+    },
+    {
+      "path": "tables\\E6_density_results_corrected.csv",
+      "sha256": "0576be292596a13a9a7edf7ef08b0b6ec78d1f40c01e5c72c0457f512be734f5"
+    },
+    {
+      "path": "tables\\E6_density_sensitivity.csv",
+      "sha256": "3f74ee077d088545471f77b03a7f646e922e1695b848b6112cdf5ee69943573f"
+    },
+    {
+      "path": "tables\\E7_model_selection_consistency.csv",
+      "sha256": "f1ed48df5f206f4cbc97632d2406c4e8d68f8e88b7d8661cae21d8cccbcdf063"
+    },
+    {
+      "path": "tables\\E7_model_selection_consistency_corrected.csv",
+      "sha256": "f1ed48df5f206f4cbc97632d2406c4e8d68f8e88b7d8661cae21d8cccbcdf063"
+    },
+    {
+      "path": "tables\\E7_model_selection_consistency_pre_semantic_correction.csv",
+      "sha256": "6c082110b92541c16743513ad675e7be4b97f4b0ad510e18f7e8710fa3c7e627"
+    },
+    {
+      "path": "tables\\E8_replication_matrix.csv",
+      "sha256": "e7411125ae4cb4f8461cdf46ae340162d52aeff881176d3ce76bad46df890a0b"
+    },
+    {
+      "path": "tables\\E8_replication_matrix_pre_evidence_correction.csv",
+      "sha256": "9b299836346096089e50afe68e05ecd42f15a8f8edb97b37f1a18ca4e6ecc27e"
+    },
+    {
+      "path": "tables\\failure_modes.csv",
+      "sha256": "b252c07b30f0c2e97ba9e0cb060549a45b3ede5ca5971c581056b6584b57a0e9"
+    },
+    {
+      "path": "tables\\internal_metrics_by_seed.csv",
+      "sha256": "e01260e61b9c2ba9dc838b138ed47b7a4f7b5fc7d90e7de9937ed3a6b1563fc1"
+    },
+    {
+      "path": "tables\\internal_summary.csv",
+      "sha256": "c6d419a9448e81b1b63f95377e839287d38b0eb025a7159c5c5ac925f6931220"
+    },
+    {
+      "path": "tables\\jbi_core_training_status.csv",
+      "sha256": "11fa8671479a6f435fe6049bf3d0f3f2cbb23d2b0cda5ace8175c09a277b783b"
+    },
+    {
+      "path": "tables\\jbi_deep_vs_linear_by_density.csv",
+      "sha256": "510c7e4fb1382e3ef1df6524b57220fc48ac1b50652d151183f8760649f46485"
+    },
+    {
+      "path": "tables\\jbi_density_rankings.csv",
+      "sha256": "dff46293b5ea5dba70746bff39f3220126c53abc8b2f9418da3592da28021f55"
+    },
+    {
+      "path": "tables\\jbi_density_sensitivity.csv",
+      "sha256": "3f74ee077d088545471f77b03a7f646e922e1695b848b6112cdf5ee69943573f"
+    },
+    {
+      "path": "tables\\jbi_model_selection_consistency.csv",
+      "sha256": "f1ed48df5f206f4cbc97632d2406c4e8d68f8e88b7d8661cae21d8cccbcdf063"
+    },
+    {
+      "path": "tables\\jbi_one_step_per_variable.csv",
+      "sha256": "ec194627de1e740cc98457dc90bdc3a402cd629bea99bd4ee83ae9b7ad65f95e"
+    },
+    {
+      "path": "tables\\jbi_one_step_performance.csv",
+      "sha256": "601d9c2f72518955a5008b3f82cdfe8d7a9f47151c5bed821e5a443f0d46b27c"
+    },
+    {
+      "path": "tables\\model_capacity.csv",
+      "sha256": "11fa8671479a6f435fe6049bf3d0f3f2cbb23d2b0cda5ace8175c09a277b783b"
+    },
+    {
+      "path": "tables\\paired_comparisons.csv",
+      "sha256": "ab92aca6e8b725c0de2fb3dc7b780a53b148a74a671f856e2240c07fe4ea72bf"
+    },
+    {
+      "path": "tables\\pareto_profile.csv",
+      "sha256": "de42f133411f45a6df2b408777217730f776ab0ee69125f694f4a84b3a989da1"
+    },
+    {
+      "path": "tables\\per_variable_temporal_metrics.csv",
+      "sha256": "aa5ffb7b40e47c498cde37b9a5aed7779afea985392d2b86f5e4670ba896be51"
+    },
+    {
+      "path": "tables\\ranking_stability.csv",
+      "sha256": "1c6c2a1d23374da4fc3ab25658f75d2bc035e03729c71a1144e125e77cb1cf38"
+    },
+    {
+      "path": "tables\\table_2_state_fidelity.csv",
+      "sha256": "ebcf40ea2c2e8768fd4a3d61ca84423ea0182e4df305df50c8ce6d1168a21d1e"
+    },
+    {
+      "path": "tables\\table_3_dynamic_fidelity.csv",
+      "sha256": "b4301988f3770e92f6e0e5fcc05f0b449cb78e0dd6345eb85d883ac7ac9f82ce"
+    },
+    {
+      "path": "tables\\table_4_reliability.csv",
+      "sha256": "80d07559042664eb5f37b40877cac0dfcbdd09855a8722f5ebb172d68b362f62"
+    },
+    {
+      "path": "tables\\table_5_dense_sensitivity.csv",
+      "sha256": "4ee63e4417c04e28a569f161c069722e1fd5cd255bb3eebd1be84299debf30fd"
+    },
+    {
+      "path": "tables\\table_6_sepsis_subgroup.csv",
+      "sha256": "1024709fd4784f9bca8ec06d1dff8477a95dc79f56cfdfa554f847b75f752f91"
+    },
+    {
+      "path": "tables\\table_8_multidimensional_profile.csv",
+      "sha256": "ee4f4f4f71e2b1beb6b9a19206732f33f3dc22185b9d8340ef983492150abc7d"
+    }
+  ],
+  "label": "POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS",
+  "original_manifest_preserved": true,
+  "original_manifest_sha256": "6c27f467b7127e138123379b95272006a59f3e3370b78aa62a0a0dbb299ab056",
+  "original_recorded_event_sha256": "d4f3111d94295ac787fa6af8da0406fa88d9de65006f3b7cc5f0cf1ca26a97d6",
+  "reason": "The event audit metadata was updated after the historical immutable manifest was created to record reporting-only recovery completion."
+}

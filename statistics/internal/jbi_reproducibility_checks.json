@@ -1,0 +1,9 @@
+{
+  "deterministic_regeneration_from_saved_intermediates": true,
+  "identical_evaluation_masks_all_models_seeds": true,
+  "patient_disjoint_splits": true,
+  "recursive_rollout_accepts_no_future_targets": true,
+  "set_B_locked": true,
+  "train_only_normalization": true,
+  "validation_only_checkpoint_selection": true
+}

@@ -1,0 +1,4 @@
+{
+  "reason": "The frozen V3.1 synthetic generator exposes observed physiological state but no scientifically defined ground-truth latent coordinates. Defining a latent target or alignment after the fact would be post-hoc; no nonlinear or linear probe is introduced.",
+  "status": "NOT APPLICABLE"
+}

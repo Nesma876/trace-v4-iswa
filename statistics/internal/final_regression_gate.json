@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "classification_of_prior_18_errors": "TEMP_DIRECTORY_PERMISSION",
+  "prior_actual_test_failures": 0,
+  "command": ".venv/Scripts/python.exe -m pytest --basetemp=outputs/test_runtime/pytest_20260910_reporting_completion_4/basetemp -q (final post-lock reporting completion verification)",
+  "tests_collected": 85,
+  "passed": 85,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "warnings": 0,
+  "runtime_seconds": 39.34,
+  "scientific_computation_rerun": false,
+  "internal_test_evaluation_count": 1,
+  "bootstrap_replicates": 2000,
+  "frozen_config_hash": "63548ed3f880d2f0bf06355919949136d42793c1e99ccfbbe95a79bb1eb2a804",
+  "Set_B_predictive_evaluation_performed": false,
+  "Set_B_locked": true
+}

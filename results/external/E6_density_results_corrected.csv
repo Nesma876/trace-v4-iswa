@@ -1,0 +1,17 @@
+density_group,model,normalized_macro_mae,rank,complete_ranking,top_model,eligible_variables,label
+jbi_core_dense,transformer,0.9679584394916582,1,transformer > gru > rssm > linear_ar,transformer,5,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+jbi_core_dense,gru,0.9739775792130644,2,transformer > gru > rssm > linear_ar,transformer,5,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+jbi_core_dense,rssm,1.0364278620830298,3,transformer > gru > rssm > linear_ar,transformer,5,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+jbi_core_dense,linear_ar,4.581911575080007,4,transformer > gru > rssm > linear_ar,transformer,5,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+other_le_80pct_missing,gru,0.941004316420111,1,gru > transformer > rssm > linear_ar,gru,2,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+other_le_80pct_missing,transformer,0.9452381925104275,2,gru > transformer > rssm > linear_ar,gru,2,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+other_le_80pct_missing,rssm,0.9634376117157581,3,gru > transformer > rssm > linear_ar,gru,2,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+other_le_80pct_missing,linear_ar,2.3012082702454424,4,gru > transformer > rssm > linear_ar,gru,2,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+sparse_gt80_to_95pct_missing,rssm,0.8240117115925057,1,rssm > transformer > gru > linear_ar,rssm,16,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+sparse_gt80_to_95pct_missing,transformer,0.8483793678955601,2,rssm > transformer > gru > linear_ar,rssm,16,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+sparse_gt80_to_95pct_missing,gru,0.9451448526712705,3,rssm > transformer > gru > linear_ar,rssm,16,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+sparse_gt80_to_95pct_missing,linear_ar,5.671017861440688,4,rssm > transformer > gru > linear_ar,rssm,16,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+very_sparse_gt95pct_missing,transformer,0.8363930485258841,1,transformer > gru > rssm > linear_ar,transformer,6,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+very_sparse_gt95pct_missing,gru,0.8852841822944345,2,transformer > gru > rssm > linear_ar,transformer,6,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+very_sparse_gt95pct_missing,rssm,0.8953486855124663,3,transformer > gru > rssm > linear_ar,transformer,6,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS
+very_sparse_gt95pct_missing,linear_ar,9.785466525513153,4,transformer > gru > rssm > linear_ar,transformer,6,POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS

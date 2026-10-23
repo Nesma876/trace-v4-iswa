@@ -1,0 +1,17 @@
+density_group,model,normalized_macro_mae,rank,complete_ranking,top_model,ranking_changes_vs_full
+jbi_core_dense,linear_ar,4.581911158561707,4.0,transformer > gru > rssm > linear_ar,transformer,YES
+jbi_core_dense,gru,0.973977837562561,2.0,transformer > gru > rssm > linear_ar,transformer,YES
+jbi_core_dense,transformer,0.9679585480690003,1.0,transformer > gru > rssm > linear_ar,transformer,YES
+jbi_core_dense,rssm,1.0364281082153322,3.0,transformer > gru > rssm > linear_ar,transformer,YES
+other_le_80pct_missing,linear_ar,2.3012094497680664,4.0,gru > transformer > rssm > linear_ar,gru,YES
+other_le_80pct_missing,gru,0.9410041809082031,1.0,gru > transformer > rssm > linear_ar,gru,YES
+other_le_80pct_missing,transformer,0.9452383041381835,2.0,gru > transformer > rssm > linear_ar,gru,YES
+other_le_80pct_missing,rssm,0.963437557220459,3.0,gru > transformer > rssm > linear_ar,gru,YES
+sparse_gt80_to_95pct_missing,linear_ar,5.160892180034092,4.0,rssm > transformer > gru > linear_ar,rssm,YES
+sparse_gt80_to_95pct_missing,gru,0.9369614166872842,3.0,rssm > transformer > gru > linear_ar,rssm,YES
+sparse_gt80_to_95pct_missing,transformer,0.8630552623953138,2.0,rssm > transformer > gru > linear_ar,rssm,YES
+sparse_gt80_to_95pct_missing,rssm,0.8284253094877515,1.0,rssm > transformer > gru > linear_ar,rssm,YES
+very_sparse_gt95pct_missing,linear_ar,12.183170199394226,4.0,transformer > gru > rssm > linear_ar,transformer,YES
+very_sparse_gt95pct_missing,gru,0.8446114253997802,2.0,transformer > gru > rssm > linear_ar,transformer,YES
+very_sparse_gt95pct_missing,transformer,0.8244245332479476,1.0,transformer > gru > rssm > linear_ar,transformer,YES
+very_sparse_gt95pct_missing,rssm,0.8789555156230927,3.0,transformer > gru > rssm > linear_ar,transformer,YES

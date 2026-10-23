@@ -1,0 +1,7 @@
+{
+  "classification": "G1",
+  "internal_scenario": "B (unchanged)",
+  "replicated": 8,
+  "rule": "G1 if >=4/5 central findings including rollout disagreement, dynamics, and density or reliability; G2 if >=3/8 total; otherwise G3",
+  "total": 8
+}

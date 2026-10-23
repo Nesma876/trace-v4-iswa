@@ -1,0 +1,21 @@
+density_group,comparison,mean_difference,ci_low,ci_high,favored,resamples,unit
+jbi_core_dense,gru_minus_linear_ar,-3.6079333209991455,-3.7805696415901187,-3.4442962273955344,gru,2000,paired Set B patients and modelling seeds
+jbi_core_dense,transformer_minus_linear_ar,-3.6139526104927064,-3.7842013387084013,-3.4560067782998085,transformer,2000,paired Set B patients and modelling seeds
+jbi_core_dense,rssm_minus_linear_ar,-3.5454830503463746,-3.7214349256753922,-3.387766489386559,rssm,2000,paired Set B patients and modelling seeds
+jbi_core_dense,gru_minus_transformer,0.0060192894935606756,-0.05046853047609324,0.07476883292198168,uncertain,2000,paired Set B patients and modelling seeds
+jbi_core_dense,rssm_minus_transformer,0.06846956014633188,0.02638744950294513,0.10688329607248284,transformer,2000,paired Set B patients and modelling seeds
+other_le_80pct_missing,gru_minus_linear_ar,-1.3602052688598634,-1.5788307082653046,-1.165379916727543,gru,2000,paired Set B patients and modelling seeds
+other_le_80pct_missing,transformer_minus_linear_ar,-1.3559711456298829,-1.5745822066068649,-1.155824134349823,transformer,2000,paired Set B patients and modelling seeds
+other_le_80pct_missing,rssm_minus_linear_ar,-1.3377718925476074,-1.559503675699234,-1.1396059776842595,rssm,2000,paired Set B patients and modelling seeds
+other_le_80pct_missing,gru_minus_transformer,-0.004234123229980402,-0.07410216927528372,0.06819316372275341,uncertain,2000,paired Set B patients and modelling seeds
+other_le_80pct_missing,gru_minus_rssm,-0.022433376312255837,-0.07849917158484446,0.04136725261807431,uncertain,2000,paired Set B patients and modelling seeds
+sparse_gt80_to_95pct_missing,gru_minus_linear_ar,-4.223930763346808,-5.036277239341288,-4.441404193397611,gru,2000,paired Set B patients and modelling seeds
+sparse_gt80_to_95pct_missing,transformer_minus_linear_ar,-4.2978369176387785,-5.137472076751291,-4.543268826678396,transformer,2000,paired Set B patients and modelling seeds
+sparse_gt80_to_95pct_missing,rssm_minus_linear_ar,-4.332466870546341,-5.156154034696519,-4.572243009600788,rssm,2000,paired Set B patients and modelling seeds
+sparse_gt80_to_95pct_missing,gru_minus_rssm,0.10853610719953266,0.07806847723200921,0.16248883267864586,rssm,2000,paired Set B patients and modelling seeds
+sparse_gt80_to_95pct_missing,rssm_minus_transformer,-0.03462995290756232,-0.057879600636661074,-0.0021117868833243846,rssm,2000,paired Set B patients and modelling seeds
+very_sparse_gt95pct_missing,gru_minus_linear_ar,-11.338558773994446,-10.48589290758595,-7.593003224780163,gru,2000,paired Set B patients and modelling seeds
+very_sparse_gt95pct_missing,transformer_minus_linear_ar,-11.358745666146278,-10.511522093663613,-7.646826165132224,transformer,2000,paired Set B patients and modelling seeds
+very_sparse_gt95pct_missing,rssm_minus_linear_ar,-11.304214683771134,-10.459120481312274,-7.592774524266522,rssm,2000,paired Set B patients and modelling seeds
+very_sparse_gt95pct_missing,gru_minus_transformer,0.02018689215183256,-0.06345929099867727,0.18381878903135657,uncertain,2000,paired Set B patients and modelling seeds
+very_sparse_gt95pct_missing,rssm_minus_transformer,0.05453098237514509,-0.01400971019019683,0.12615462411195028,uncertain,2000,paired Set B patients and modelling seeds

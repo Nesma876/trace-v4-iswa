@@ -1,0 +1,32 @@
+[
+  {
+    "best_prior_mae": 0.337091055795656,
+    "config_hash": "63548ed3f880d2f0bf06355919949136d42793c1e99ccfbbe95a79bb1eb2a804",
+    "initial_prior_mae": 0.7392761663342199,
+    "model": "gru",
+    "passed": true,
+    "patients": 16,
+    "updates": 100,
+    "windows": 511
+  },
+  {
+    "best_prior_mae": 0.31469124002659576,
+    "config_hash": "63548ed3f880d2f0bf06355919949136d42793c1e99ccfbbe95a79bb1eb2a804",
+    "initial_prior_mae": 0.7468166832890071,
+    "model": "transformer",
+    "passed": true,
+    "patients": 16,
+    "updates": 100,
+    "windows": 511
+  },
+  {
+    "best_prior_mae": 0.3677410585660461,
+    "config_hash": "63548ed3f880d2f0bf06355919949136d42793c1e99ccfbbe95a79bb1eb2a804",
+    "initial_prior_mae": 0.7419845689273049,
+    "model": "rssm",
+    "passed": true,
+    "patients": 16,
+    "updates": 100,
+    "windows": 511
+  }
+]

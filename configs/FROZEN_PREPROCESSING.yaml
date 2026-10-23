@@ -1,0 +1,28 @@
+{
+  "version": "final_pre_model_v1",
+  "range_policy": "configs/physionet2019/FROZEN_RANGE_POLICY.yaml",
+  "fio2_canonicalization": {
+    "mode": "fraction_identity_no_percent_conversion",
+    "valid_interval": "0 < x <= 1",
+    "invalid": "set missing; preserve raw and rejection flag internally",
+    "subambient": "0 < x < 0.21 retained as uncertain; not automatically multiplied/divided",
+    "round_trip": "identity for retained; rejected values require retained raw field; never reconstruct from missing"
+  },
+  "imputation": "causal forward carry, training-mean fallback before first observation",
+  "observation_mask": "finite after policy, never imputation-derived",
+  "time_since_last_observation": "hourly; zero if observed; -1 if never observed",
+  "fit_source": "A",
+  "fit_split": "train",
+  "primary_scaler": "mean / population standard deviation",
+  "saved_statistics": [
+    "mean",
+    "std",
+    "median",
+    "IQR"
+  ],
+  "near_zero_std_guard": 1e-8,
+  "target_policy": "canonical observed ground truth only; rejected targets become unobserved",
+  "frozen_stats_path": "outputs/v4_physionet2019/audit/frozen_training_stats.json",
+  "original_preprocessing_artifact": "outputs/v4_physionet2019/preprocessing.json (historical pre-audit; never overwrite)",
+  "robust_sensitivity": "descriptive only; flag std/(IQR/1.349)>5 or abs(mean-median)/IQR>2; never switch primary scaler"
+}

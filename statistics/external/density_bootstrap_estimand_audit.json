@@ -1,0 +1,35 @@
+{
+  "bootstrap_rule": "For each draw, resample 20,000 Set B patients with replacement and five modelling seeds with replacement using shared draws for every model; recompute the deterministic ratio-of-sums statistic.",
+  "bootstrap_seed": 4317,
+  "corrected_point_and_bootstrap_same_estimand": true,
+  "deterministic_rule": "For each model and seed, sum patient n and absolute-error sufficient statistics; divide per variable; average equally over the frozen eligible variables; average equally over the five modelling seeds.",
+  "eligibility_mask_sha256": "c0a5a1f0c4d0d08269f2b9c2128172a47027825e4da0087d65f1d861a0e78be7",
+  "frozen_group_eligibility": {
+    "jbi_core_dense": {
+      "defined_variables": 5,
+      "eligible_variables": 5
+    },
+    "other_le_80pct_missing": {
+      "defined_variables": 2,
+      "eligible_variables": 2
+    },
+    "sparse_gt80_to_95pct_missing": {
+      "defined_variables": 16,
+      "eligible_variables": 16
+    },
+    "very_sparse_gt95pct_missing": {
+      "defined_variables": 10,
+      "eligible_variables": 6
+    }
+  },
+  "historical_artifact": "tables\\E6_density_paired_ci_pre_estimand_audit.csv",
+  "identified_cause": "historical point/CI mismatch: the point table used per-variable individual support while the bootstrap used the frozen common-eligibility mask (excluding four variables in the >95% stratum), and historical float32 patient summation followed a numerically unstable path distinct from weighted bootstrap accumulation",
+  "inference_rerun": false,
+  "label": "POST-HOC REPORTING CORRECTION FROM IMMUTABLE SUFFICIENT STATISTICS",
+  "patient_resampling": "20,000 patient IDs with replacement; bincount weights; identical draw for all models",
+  "percentile_interval": "numpy quantile at 0.025 and 0.975 over 2,000 paired differences",
+  "primary_bootstrap_rerun": false,
+  "same_estimand": false,
+  "seed_aggregation": "five seed indices with replacement, followed by equal arithmetic mean",
+  "variable_aggregation": "equal arithmetic mean of per-variable patient-pooled MAEs"
+}

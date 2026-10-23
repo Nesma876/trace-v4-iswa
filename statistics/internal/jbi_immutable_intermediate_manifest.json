@@ -1,0 +1,225 @@
+{
+  "artifacts": [
+    {
+      "path": "local\\linear_ar_17_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "2dc86afa81edeac132f29934bb304b6c490faf149038cb53f783ebf05ac06f40"
+    },
+    {
+      "path": "tables\\selective_linear_ar_17.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "f602b6e1eb22ff9bf7cbc26d181eb4817bc9c6c5efeafbaa584c5a988da2dc8d"
+    },
+    {
+      "path": "local\\linear_ar_23_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "03108c10f00c6b3ffd0b834a81aa87b6060a6f675a28b97c052bab7d424e4038"
+    },
+    {
+      "path": "tables\\selective_linear_ar_23.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "bb69239bfc4e135896207c47650dac1defbca026fad84a429313af767b27d7b4"
+    },
+    {
+      "path": "local\\linear_ar_31_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "82b5daec173c415d62ac5cca6dd44343b9dda36951c49aa5267955caa5ad5a70"
+    },
+    {
+      "path": "tables\\selective_linear_ar_31.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "5a2e883c49bddb5032a48e49a2cae2372d0820d15fa8e75d2547b8ec958e712a"
+    },
+    {
+      "path": "local\\linear_ar_43_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "e4af276359ce4f8899747994d7a28a29b950b23629cca83d72dea1aa1ae3c940"
+    },
+    {
+      "path": "tables\\selective_linear_ar_43.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "24570b5d73414a622968375c778f11cf35c9d0ba94e15c8e71e3b8230330b622"
+    },
+    {
+      "path": "local\\linear_ar_59_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "f6127fb879730c73b860fdcb53eb0a442391ed2b02cee1fd2a8b0f5c559b8bb9"
+    },
+    {
+      "path": "tables\\selective_linear_ar_59.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "2d6c0826993032a9e68da97232d7f67ba32ad8a006cf15b9cc3d1e4edbb7ebc6"
+    },
+    {
+      "path": "local\\gru_17_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "55a06652222e41b58fc81fbb74d1fcf9a8ebd7732f1510e22791eb046920253f"
+    },
+    {
+      "path": "tables\\selective_gru_17.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "da6ea472cb28902543ab076aac125c8c4d1bcc6f4b9331d5685a01597ff04879"
+    },
+    {
+      "path": "local\\gru_23_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "6553f8affff633c146247d5848ed9b2f8c4b18b65a53b2596ded6bf49aa2f7c8"
+    },
+    {
+      "path": "tables\\selective_gru_23.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "20595a2e39edf9503585eb2408216aaf13b6f029a573dc9f5ca3206b4d48097f"
+    },
+    {
+      "path": "local\\gru_31_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "94b43fe8cd251c8246fb3b0f62e5ff277a23e631ea4b6d201680193465ee3923"
+    },
+    {
+      "path": "tables\\selective_gru_31.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "5de1a581ebd4057d6f1eb6340c75eaaad5df3f37c54b9ea75c3f4e04752a0a13"
+    },
+    {
+      "path": "local\\gru_43_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "184edf72a7f6fcd33f3365f63298df6a3ac5a8c6fc8322aa4abb7329921c7e7f"
+    },
+    {
+      "path": "tables\\selective_gru_43.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "4801f279984f51c947d8052f90c5152dcc2ff14492c911931ccc40109d966bdc"
+    },
+    {
+      "path": "local\\gru_59_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "8123301e31d89141f63620cac8754a75e52cc1b30bcac54152071cd3fc49121b"
+    },
+    {
+      "path": "tables\\selective_gru_59.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "645449b44525f6e298814726a0d0242185149ad891dfcb4e52efa71d5304baba"
+    },
+    {
+      "path": "local\\transformer_17_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "3a4e77185f350a3efa78c1f09fc45242cea3af34095122f018d4314629a90583"
+    },
+    {
+      "path": "tables\\selective_transformer_17.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "10030c425bf2ece744666ce8501c940be70fd2f29fee1d5a32a8f46d615bebcb"
+    },
+    {
+      "path": "local\\transformer_23_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "ad7c4d8838b69deea976967549575845273a47c7d60646bbbeb2c7b4a1e2dad9"
+    },
+    {
+      "path": "tables\\selective_transformer_23.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "89e9140f3c263d104714cd5d098eeed278ae25e558e8806b7be9e5d8872ffbf7"
+    },
+    {
+      "path": "local\\transformer_31_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "5c9efb6a0fd722f9bbd4c5a9e9f42a828b9346fd9dc527090466c5702213d154"
+    },
+    {
+      "path": "tables\\selective_transformer_31.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "223771b8c940b3e53b307f4a22d3c95369eeec5aa59058d279f0f46b7d537530"
+    },
+    {
+      "path": "local\\transformer_43_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "e811fa9544b2b4d42fb1653cdf54bf421084916050e6912eb3c8d3810557282e"
+    },
+    {
+      "path": "tables\\selective_transformer_43.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "7d149a58f04201bb74fee02c42d327fc648ac1edfce1de831dc762c28946e432"
+    },
+    {
+      "path": "local\\transformer_59_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "9bf0798c0fe896f0b9a660ec32d862f50667dad551ebe84a0267cbdf375fa2f0"
+    },
+    {
+      "path": "tables\\selective_transformer_59.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "e83d6d28bc7cda37f60a3444b6a00ea3044d8a5177b27b097b21e41a666c1eb6"
+    },
+    {
+      "path": "local\\rssm_17_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "ccbafada8c72440b69fccf6d478666b092f3135f22cd2f6e8d8c43dd1b320900"
+    },
+    {
+      "path": "tables\\selective_rssm_17.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "128d1ff6fb4489b0c4c1fe31907966ee73c270491e764da1b5e8aebcd2c83963"
+    },
+    {
+      "path": "local\\rssm_23_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "1491e993c13944eec555cf64b2fd151023eb44eccb40716233b52c41dc5736cb"
+    },
+    {
+      "path": "tables\\selective_rssm_23.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "96b5efb6db035105cca94cd5c9fff8d09407f90b6bc1b52545d43d183664b2f2"
+    },
+    {
+      "path": "local\\rssm_31_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "9c13b7b3a03e45e28260e686b111cf55fd832fadc2287aa01d25ff4f58a216d1"
+    },
+    {
+      "path": "tables\\selective_rssm_31.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "076f8d31ba24c01e5b568434989ea0e3ed9f1e28c3107889b0d668cc1a75b950"
+    },
+    {
+      "path": "local\\rssm_43_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "08da99b4b521071559fa627a663f5db5435ec8dedd6dcb88d375dc60578ea93c"
+    },
+    {
+      "path": "tables\\selective_rssm_43.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "af64d13c00534b0cf1510050a10dd1bbfaba2319073310f751bd6a14c04b8e85"
+    },
+    {
+      "path": "local\\rssm_59_patient_stats.npz",
+      "role": "patient-level sufficient statistics",
+      "sha256": "1a7204557285cf92eaca7716d17f92254c53ea3d95e87e41189fdcd30372327c"
+    },
+    {
+      "path": "tables\\selective_rssm_59.csv",
+      "role": "uncertainty-ranked sufficient intermediate",
+      "sha256": "4713ebbc1301d6f729960e6b37b3cb5076278e70dc0f8f31cc3238b2b74e8d50"
+    },
+    {
+      "path": "frozen_seed_checkpoint_manifest.json",
+      "role": "frozen evaluation provenance",
+      "sha256": "b5fa4e127b9d857d214b3a8f2b02c1fd7dae943fc5dd025a024fa090b22a87ad"
+    },
+    {
+      "path": "frozen_candidate_manifest.json",
+      "role": "frozen evaluation provenance",
+      "sha256": "9e440d764c5c538d1d29bd2b56fae5936e07b64d036f7288dccba70ee61eea11"
+    },
+    {
+      "path": "analysis\\common_variable_eligibility.json",
+      "role": "frozen evaluation provenance",
+      "sha256": "93c113a10edeed32d0688ece457c1339d089de900a282fe07af4c8f89dbcef34"
+    },
+    {
+      "path": "analysis\\internal_ground_truth_signature.json",
+      "role": "frozen evaluation provenance",
+      "sha256": "40fd6ae3b8a1c60d5cc704a8f4290791951760467687565dc7ec89de0b225bfb"
+    }
+  ],
+  "inference_required_for_table_or_figure_regeneration": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset_version": "1.0.0",
+  "doi": "10.13026/v64v-d857",
+  "seed": 4317,
+  "split_fractions": [0.70, 0.15, 0.15],
+  "history_hours": 4,
+  "horizons_hours": [4, 12, 24, 48],
+  "minimum_hours": 5,
+  "minimum_observations": 100,
+  "minimum_observed_patients": 20,
+  "minimum_standard_deviation": 1e-8,
+  "external_test_locked": true,
+  "action_dim": 0,
+  "context_inputs": [],
+  "masking_fractions": [0.0, 0.1, 0.2, 0.3, 0.5],
+  "models": ["linear_ar", "gru", "transformer", "rssm"]
+}

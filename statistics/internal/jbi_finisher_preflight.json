@@ -1,0 +1,28 @@
+{
+  "Set_B_locked": true,
+  "audited_source_hashes": {
+    "scripts\\physionet2019\\finish_internal_run.py": "6843aa3e50b7b88119de5ea0b7bba6c3df621b3bdf23f48937f6ee2e307c89dc",
+    "scripts\\physionet2019\\report_internal.py": "bc5502369080cfc27c928b1b6c2b932e5acef5755cb769481952a81a851068cd",
+    "src\\trace\\physionet2019\\internal_evaluation.py": "ed879e6307fc1c64c87969ad992336ad99cae2e8e00609773337b1e3ec1f5ef9",
+    "src\\trace\\physionet2019\\internal_reporting.py": "63308685a0834ec00d9d02979c5ec04cf61ddd7053053afc5b5f8a633a84b77a"
+  },
+  "checks": {
+    "immutable_intermediate_manifest": true,
+    "jbi_figures_contract": true,
+    "jbi_tables_contract": true,
+    "leakage_and_regeneration_checks": true,
+    "model_selection_consistency": true,
+    "normalized_per_variable_and_macro": true,
+    "one_step_endpoint": true,
+    "patient_paired_bootstrap_2000": true,
+    "probabilistic_reliability": true,
+    "recursive_horizons": true,
+    "synthetic_latent_fidelity": "NOT APPLICABLE: no frozen ground-truth synthetic latent coordinates",
+    "temporal_change_variance": true,
+    "training_only_density_strata": true
+  },
+  "external_site_held_out_evaluation_included": false,
+  "frozen_modelling_config_hash": "63548ed3f880d2f0bf06355919949136d42793c1e99ccfbbe95a79bb1eb2a804",
+  "held_out_data_opened": false,
+  "status": "READY"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "TRACE: Multi-Criteria Evaluation and Model Selection for Reliable Clinical Time-Series Simulation",
+  "creators": [
+    {"name": "Settouti, Nesma", "orcid": "0000-0003-0460-9713", "affiliation": "LabISEN, LSL, ISEN Ouest, Caen, France"},
+    {"name": "Hamza-Cherif, Souaad", "affiliation": "Biomedical Engineering Laboratory, Tlemcen University, Tlemcen, Algeria"},
+    {"name": "Bechar, Mohammed El Amine", "affiliation": "LabISEN, LSL, ISEN Ouest, Brest, France"}
+  ],
+  "description": "Audited reproducibility materials for TRACE V4, a multi-criteria evaluation framework for model selection in recursive clinical time-series simulation.",
+  "version": "TRACE V4 ISWA submission release candidate",
+  "keywords": ["clinical time series", "recursive simulation", "model selection", "uncertainty", "reproducibility", "PhysioNet 2019"],
+  "related_identifiers": [],
+  "license": "MIT",
+  "upload_type": "software",
+  "notes": "No DOI has been minted. PhysioNet data are not redistributed. Checkpoint binaries are excluded pending rights review. Add verified public repository and immutable release identifiers only after publication."
+}
